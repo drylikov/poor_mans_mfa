@@ -38,6 +38,7 @@ You must have a default gpg keypair configured with a password. This is the pass
   * Add the script directory to your `PATH` for easy access.
   * Add one of the completions files for CLI completion of secret names (`pmmfa` must be in your `PATH` for completions to work)
 
+
 ## Usage
 
 To use Poor Man's MFA, you can run the script with various options:
