@@ -16,6 +16,7 @@ It's designed for those who prefer a minimalist, command-line approach to MFA, w
 * **Shell Completion**: Supports shell completion for for Bash, Zsh, Fish
 * **Interactive Mode**: Allows entering your GPG password once and generating multiple TOTP codes until the script exits
 
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
