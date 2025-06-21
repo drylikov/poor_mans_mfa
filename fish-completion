@@ -1,0 +1,10 @@
+# Autocompletion script for Poor Man's MFA for Fish
+
+function __fish_poor_mans_mfa_complete
+  set -l cur (commandline -ct)
+  pmmfa -c "$cur"
+end
+
+complete -f -c pmmfa -a '(__fish_poor_mans_mfa_complete)'
+
+# vi: ft=fish

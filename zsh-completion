@@ -1,0 +1,11 @@
+# Autocompletion script for Poor Man's MFA for Zsh
+
+_poor_mans_mfa() {
+  local -a commands
+  commands=("${(@f)$(pmmfa -c "${words[2]}")}")
+  _describe 'command' commands
+}
+
+compdef _poor_mans_mfa pmmfa
+
+# vi: ft=zsh
