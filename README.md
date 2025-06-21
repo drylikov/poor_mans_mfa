@@ -66,6 +66,7 @@ The script uses the following environment variables for configuration:
 
 The author makes no claim of security expertise and no warranties of the security of this software -- use at your own risk.
 
+
 ### Considerations
 
 While Poor Man's MFA provides a convenient way to manage TOTP secrets, it's important to be aware of the security implications involved in handling sensitive information such as TOTP secrets and GPG passphrases. Please consider the following security aspects before using this tool:
@@ -78,11 +79,13 @@ While Poor Man's MFA provides a convenient way to manage TOTP secrets, it's impo
 
 * **Clipboard Security**: When using the feature to copy TOTP codes to the clipboard, be aware that the clipboard contents might be accessible to other applications or users on the same system.
 
+
 ### Recommendations
 
 * **Use on Trusted Systems Only**: Run this script on systems you trust, which are secure, up-to-date, and free from unauthorized access or malware.
 
 * **Secure Temporary Files**: Consider using encrypted temporary storage or ensuring that temporary files are stored on a secure filesystem to mitigate risks associated with plain text storage of secrets.
+
 
 ## Contributing
 
