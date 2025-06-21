@@ -61,6 +61,7 @@ The script uses the following environment variables for configuration:
 * `POOR_MANS_MFA_COMPLETION_DATA_FILE`: Name of the plain text file that stores secret names for shell completion. Defaults to `completion-data`.
 * `POOR_MANS_MFA_DISABLE_CLIPBOARD_INTEGRATION`: By default, TOTP codes are copied to the system clipboard if `xclip` is installed. Set this variable to any non-empty value to disable the feature.
 
+
 ## Security Note
 
 The author makes no claim of security expertise and no warranties of the security of this software -- use at your own risk.
