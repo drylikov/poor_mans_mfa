@@ -27,6 +27,7 @@ Before you begin, ensure you have met the following requirements:
 
 You must have a default gpg keypair configured with a password. This is the password you'll use to unlock the encrypted secrets file.
 
+
 ## Installation
 
 1. Clone the repository to your local machine:
