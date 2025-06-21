@@ -51,6 +51,7 @@ To use Poor Man's MFA, you can run the script with various options:
 * Interactive mode: `./pmmfa -i`
 * Help: `./pmmfa -h`
 
+
 ## Configuration
 
 The script uses the following environment variables for configuration:
