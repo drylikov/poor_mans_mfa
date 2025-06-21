@@ -7,6 +7,7 @@ Poor Man's MFA (pmmfa) is a simple bash script for managing and generating Time-
 
 It's designed for those who prefer a minimalist, command-line approach to MFA, without relying on third-party services or applications.
 
+
 ## Features
 
 * **Secure Storage**: Secrets are encrypted using GPG with AES256 cipher algorithm
